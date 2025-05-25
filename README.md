@@ -2,6 +2,7 @@
 
 Este es un proyecto simple de una **ruleta animada** hecha con **Tkinter**, donde puedes **apostar dinero virtual** a un número o color (rojo, negro o verde). Ideal como práctica de interfaces gráficas, lógica de juego y animación en Python.
 
+![ruleta](captura1.png)
 ---
 
 ## 🧩 Funcionalidades
