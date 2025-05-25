@@ -28,33 +28,47 @@ Este es un proyecto simple de una **ruleta animada** hecha con **Tkinter**, dond
 1. Clona este repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/ruleta-python.git
-cd ruleta-python
+git clone https://github.com/tu-usuario/Ruleta_juego.git
+cd Ruleta_juego
 Ejecuta el archivo principal:
 
 bash
 Copiar
 Editar
-python ruleta.py
+python ruleta3.py
 📁 Estructura del Proyecto
 bash
 Copiar
 Editar
-ruleta-python/
-├── ruleta.py           # Código principal de la ruleta
+Ruleta_juego/
+├── ruleta3.py           # Código principal de la ruleta
+├── bola3.mp4           # Sonido
+├── captura1.png        # Imagen de vista previa 
 └── README.md           # Este archivo
-Opcional: Puedes incluir una imagen captura.png si deseas mostrar una vista previa.
+
+🎮 ¿Cómo se juega?
+Deposita una cantidad.
+
+Ingresa cuánto deseas apostar.
+
+Opcionalmente, escribe un número del 0 al 36.
+
+Elige un color: rojo, negro o verde.
+
+¡Gira la ruleta y prueba tu suerte!
 
 🤖 Lógica del juego
 Se selecciona aleatoriamente un número del 0 al 36.
 
-El número y su color son comparados con la apuesta del usuario.
+El número y su color se comparan con la apuesta del usuario.
 
 Ganancias:
 
-Si aciertas el número, ganas 35 veces tu apuesta.
+Si aciertas el número exacto → ganas 35 veces tu apuesta.
 
-Si aciertas solo el color, ganas 2 veces tu apuesta.
+Si aciertas solo el color → ganas 2 veces tu apuesta.
+
+Si no aciertas nada → pierdes tu apuesta.
 
 🧑‍💻 Autor
 Juan David Jáuregui 
